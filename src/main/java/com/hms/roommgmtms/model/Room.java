@@ -26,11 +26,8 @@ public class Room {
 	private LocalDate checkOut;
 
 
-	public Room() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
+	
+	
 
 	public Room(Long roomId, String roomType, LocalDate checkIn, LocalDate checkOut) {
 		super();
@@ -41,14 +38,13 @@ public class Room {
 	}
 
 
+
+
 	public Long getRoomId() {
 		return roomId;
 	}
 
 
-	public void setRoomId(Long roomId) {
-		this.roomId = roomId;
-	}
 
 
 	public String getRoomType() {
